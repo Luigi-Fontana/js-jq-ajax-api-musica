@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-fullwidth {
+    background-color: #1e2d3b;
+    width: 100vw;
+}
+
+header {
+    max-width: 1080px;
+    height: 70px;
+    margin: 0 auto;
+}
