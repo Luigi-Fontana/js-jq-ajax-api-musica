@@ -23,16 +23,19 @@
         <section id="main-fullwidth">
             <main>
                 <div class="container">
-                    <div class="card">
-                        <img src="https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg" alt="cover">
-                        <h3>New Jersey</h3>
-                        <p>Bon Jovi</p>
-                        <p>1988</p>
-                    </div>
+
                 </div>
             </main>
         </section>
 
+        <script id="card-template" type="text/x-handlebars-template">
+            <div class="card" data-genre="{{genere}}">
+                <img src="{{copertina}}" alt="{{album}} cover">
+                <h3>{{album}}</h3>
+                <p>{{autore}}</p>
+                <p>{{anno}}</p>
+            </div>
+        </script>
 
         <script src="js/main.js" charset="utf-8"></script>
     </body>

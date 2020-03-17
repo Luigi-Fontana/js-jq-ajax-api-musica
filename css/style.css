@@ -33,7 +33,7 @@ header select {
 /* MAIN */
 #main-fullwidth {
     width: 100vw;
-    height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px);
     background-color: #1e2d3b;
 }
 
@@ -53,15 +53,13 @@ main {
 
 .card {
     flex-basis: 170px;
-    height: 250px;
+    height: 280px;
     padding: 10px;
     background-color: #2e3a46;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     transition-duration: 0.3s;
+    margin: 20px;
+    text-align: center;
 }
 
 .card:hover {
@@ -70,6 +68,7 @@ main {
 
 .card img{
     width: 150px;
+    height: 150px;
 }
 
 .card h3 {
